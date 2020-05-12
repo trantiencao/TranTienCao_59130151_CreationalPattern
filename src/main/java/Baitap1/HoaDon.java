@@ -22,17 +22,17 @@ public class HoaDon {
 
     @Override
     public String toString() {
-        String str = header.toString();
+        String hd = header.toString();
         for (CTHD cthd : dsCTDH) {
-            str += "\n" + cthd.toString();
+            hd += "\n" + cthd.toString();
         }
-        return str;
+        return hd;
     }
 
     public static class HoaDonBuilder {
         HoaDonHeader header;
         ArrayList<CTHD> dsCTDH;
-
+        
         public HoaDonBuilder() {
             this.dsCTDH = new ArrayList<>();
         }

@@ -22,7 +22,7 @@ public class HoaDonHeader {
         this.ngayBan = ngayBan;
         this.tenKH = tenKH;
     }
-
+    
     @Override
     public String toString() {
         return "Thông tin chung:\n" + "Mã hóa đơn: " + this.maHoaDon

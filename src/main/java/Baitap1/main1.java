@@ -29,6 +29,7 @@ public class main1 {
                             .addDsCTDH(new CTHD("Kính râm Đức", 1, 2000000, 5))
                             .addDsCTDH(new CTHD("Giày Gucci", 1, 5000000, 5))
                             .build();
+        
         System.out.println(hoaDon.toString());
     }
     
